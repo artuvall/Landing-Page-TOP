@@ -123,10 +123,20 @@ a:hover {
     background-color: #0053ab;
 }
 
+.area2 {
+    background-color: #F9F9F9;
+    margin: 0 auto;
+    padding: 4rem;
+    margin-right: auto;
+    margin-right: auto;
+}
+
 .title2 {
     font-size: 2rem;
     font-weight: bold;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    color: #101211;
 }
 
 .container2 {
@@ -137,11 +147,31 @@ a:hover {
 }
 
 .square {
-    border: 2px solid #007bff;
+    border: 2px solid #F9F9F9;
     border-radius: 0.5rem;
     padding: 1rem;
-    background-color: #ffffff;
-    width: 200px;
+    width: 250px;
     color: #1a202c;
     text-align: center;
+    transition: border 0.3s ease;
+}
+
+.square:hover {
+    border: 2px solid #e8e8e8;
+    border-radius: 0.5rem;
+}
+
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+}
+
+.text {
+    font-size: 1.5rem;
+    font-weight: 400;
 }
